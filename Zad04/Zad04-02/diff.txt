@@ -1,0 +1,36 @@
+cat hash.pdf personal.txt | md5sum
+cat hash.pdf personal_.txt | md5sum
+d7c122779405766a14f895153c7ab633
+2e62edef8af2c1c67a12e6f2f9119789
+Liczba rozniacych sie bitow:  77 z 128, procentowo: 60%.
+
+cat hash.pdf personal.txt | sha1sum
+cat hash.pdf personal_.txt | sha1sum
+a5f322b0c55421d22204fdb365db97cb0bff9a28
+8a95f49f30f797cb9f3a16a8fb7780b7df2751b6
+Liczba rozniacych sie bitow:  94 z 160, procentowo: 59%.
+
+cat hash.pdf personal.txt | sha224sum
+cat hash.pdf personal_.txt | sha224sum
+5a0751f3c85f894e341e2b4a9c5e46c6cec7a795e2f4941ce27b5ea7
+aac4cc6796fb6336991ecfc5cfc571234648f340843dd1eee4e99f84
+Liczba rozniacych sie bitow:  108 z 224, procentowo: 48%.
+
+cat hash.pdf personal.txt | sha256sum
+cat hash.pdf personal_.txt | sha256sum
+bf10dad7831ba95105ff898e1d726e9ae1d2a835edf3cb8eaee38b5fa061410d
+d3cc5d70aeecf7f438bb4259dbf10e355342504cd53e1e489b572ed2cf481708
+Liczba rozniacych sie bitow:  135 z 256, procentowo: 53%.
+
+cat hash.pdf personal.txt | sha384sum
+cat hash.pdf personal_.txt | sha384sum
+6fbbed3608b3ca8e3fdb919348594e3259fa6a13c6b7d6535f959bde03c6d0bd87d69c9c171e8c38925e0a6688b4728e
+d2094abf1ff02e453d32abbc6ddaec410807d2e8258ce3292cdb36684207d263ededd64d5216773a4774eba820b70de4
+Liczba rozniacych sie bitow:  195 z 384, procentowo: 51%.
+
+cat hash.pdf personal.txt | sha512sum
+cat hash.pdf personal_.txt | sha512sum
+7358b661f966617ba13a42faf9bd73aeb9b8b0f5be417c74c040ecde4347631c8b7803f44e9e80dc44a956338c9215df822d8db44c6cb9b2ffb8206e19ebc6cd
+9e89f96338fc2a0de194a06587f51550c64ea2a42eeef7bd120987a231a4a7b511752f2c244b1d6d1d7502e9a23687c787a0149c82b6b07d44a10a0fd06c4f68
+Liczba rozniacych sie bitow:  255 z 512, procentowo: 50%.
+
